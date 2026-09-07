@@ -1,0 +1,6 @@
+engineering-flow.local.json
+*.local.json
+*.local.md
+.local/
+__pycache__/
+*.pyc

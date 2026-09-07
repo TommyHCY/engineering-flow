@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "context": {
+    "organization": "Example Team",
+    "repositories": ["example/service"],
+    "frameworks": ["Example Framework"],
+    "services": ["example-service"],
+    "rules_file": ""
+  },
+  "tools": {
+    "tracker": "",
+    "logs": "",
+    "ci": "",
+    "issue_conventions": ""
+  },
+  "logs": {
+    "environments": {
+      "staging": {
+        "profile": "example-staging",
+        "index": "example-service-staging",
+        "trace_field": "trace.id"
+      }
+    }
+  },
+  "workflows": {},
+  "verification": []
+}
